@@ -2,8 +2,8 @@
 
 # 🚀 OnMax - Inovação Digital
 
-[![Deploy Status](https://github.com/meuphilim/Projeto-OnMax/actions/workflows/deploy.yml/badge.svg)](https://github.com/meuphilim/onmax/actions/workflows/deploy.yml)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://meuphilim.github.io/onmax)
+[![Deploy Status](https://github.com/meuphilim/Projeto-OnMax/actions/workflows/deploy.yml/badge.svg)](https://github.com/meuphilim/Projeto-OnMax/actions/workflows/deploy.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)]((https://meuphilim.github.io/OnMax/))
 [![React](https://img.shields.io/badge/React-18.3.1-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4.2-purple)](https://vitejs.dev/)
