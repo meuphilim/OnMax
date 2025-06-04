@@ -1,8 +1,8 @@
-name: Deploy to External GitHub Pages
+name: Deploy para GitHub Pages
 
 on:
   push:
-    branches: [pages]
+    branches: [pages]  # A branch que vai disparar o deploy
   pull_request:
     branches: [pages]
 
@@ -23,6 +23,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Opcional: instale dependências ou construa seu site aqui, se necessário
+      # Exemplo para Jekyll:
+      # - name: Setup Ruby
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: '3.2'
+      # - run: bundle install
+      # - run: bundle exec jekyll build --destination dist
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # Se precisar usar um token diferente do GITHUB_TOKEN (não é obrigatório):
+          personal_token: ${{ secrets.DEPLOY_PAT }}
